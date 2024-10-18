@@ -51,8 +51,8 @@ const Sidebar = () => {
             <nav className='z-10 w-full'>
 
             <SidebarLink icon={Home} href='/' label='Home'/>
-            <SidebarLink icon={Briefcase} href='/timline' label='Timeline'/>
-            <SidebarLink icon={Search} href='/serach' label='Search'/>
+            <SidebarLink icon={Briefcase} href='/timeline' label='Timeline'/>
+            <SidebarLink icon={Search} href='/search' label='Search'/>
             <SidebarLink icon={Settings2} href='/settings' label='Settings'/>
             <SidebarLink icon={User} href='/users' label='Users'/>
             <SidebarLink icon={Users} href='/teams' label='Teams'/>
