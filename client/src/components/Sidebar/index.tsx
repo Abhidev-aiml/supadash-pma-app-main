@@ -97,10 +97,10 @@ interface SidebarlinkProps {
     icon: LucideIcon;
     href: string;
     label:string;
-   // isCollapsed: boolean;
+
 }
 
-const SidebarLink = ({icon:Icon, href, label, isCollapsed}: SidebarlinkProps) => {
+const SidebarLink = ({icon:Icon, href, label}: SidebarlinkProps) => {
     const pathname = usePathname();
     const isActive = pathname === href || (pathname === '/' && href === '/dashboard');
     const screenWidth = window.innerWidth;
